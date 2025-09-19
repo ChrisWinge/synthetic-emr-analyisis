@@ -1,0 +1,99 @@
+# The Village EMR Data Analysis Project
+
+## Overview
+This project uses synthetic/fake EMR data that was generated to mirror the types of datasets and analyses a Business Analyst at The Village Family Service Center would encounter. The structure, relationships, and metrics reflect realistic healthcare billing and clinical workflows, but all patient and financial details are simulated. 
+The primary goal is to evaluate **data quality** and **revenue cycle performance metrics** such as charge lag, clean claim rate, denial rate, and days sales outstanding (DSO).  
+
+The project uses Python (Pandas, Matplotlib) in a Jupyter Notebook environment.  
+
+---
+
+## Data Sources
+Six CSV files were provided, each representing a core part of the EMR system:
+
+1. **`village_emr_patients.csv`**  
+   Patient demographic information (IDs, age, gender, etc.).  
+
+2. **`village_emr_encounters.csv`**  
+   Records of patient visits, linked back to patients and providers.  
+
+3. **`village_emr_diagnoses.csv`**  
+   Diagnoses tied to encounters.  
+
+4. **`village_emr_providers.csv`**  
+   Information about providers (clinicians, therapists, etc.).  
+
+5. **`village_emr_medications.csv`**  
+   Prescriptions linked to patients and encounters.  
+
+6. **`village_emr_allergies.csv`**  
+   Documented allergies tied to patients.  
+
+Additional billing data is included for claims, charges, allowed amounts, and payments.  
+
+---
+
+## Key Metrics
+The notebook highlights several **revenue cycle KPIs**:
+
+- **Charge Lag Days** – Average time between date of service and claim submission.  
+- **Clean Claim Rate** – % of claims accepted on first submission without errors.  
+- **Denial Rate** – % of claims denied by payers.  
+- **Days Sales Outstanding (DSO)** – Average number of days to collect payment after billing.  
+
+---
+
+## Methods
+- **Data Cleaning:**  
+  - Checked for duplicates, nulls, and referential integrity (foreign keys).  
+  - Standardized date formats and categorical values.  
+
+- **Feature Engineering:**  
+  - Created `month` column for monthly trend analysis.  
+  - Calculated charge lag days (submission date – encounter date).  
+
+- **Analysis & Visualization:**  
+  - Grouped billing data by payer and month.  
+  - Plotted revenue trends, payer mix, and lag times.  
+  - Compared claim performance across KPIs.  
+
+---
+
+## Tools & Libraries
+- Python 3  
+- Pandas  
+- Matplotlib  
+- Jupyter Notebook  
+- Seaborn
+
+---
+
+## How to Use
+1. Clone this repository.  
+2. Open the Jupyter Notebook file (`.ipynb`) in your local environment.  
+3. Run the cells step by step to reproduce the analysis.  
+   - Ensure you have the six CSV files in the same directory.  
+
+---
+
+## Example Visuals
+- **Monthly Paid Amount by Payer**  
+- **Charge Lag Trend**  
+- **Clean Claim Rate Over Time**  
+
+---
+
+## Project Purpose
+This project was developed as a capstone for a **Business Analyst role at The Village Family Service Center**, demonstrating the ability to:  
+- Clean and validate EMR data.  
+- Calculate and explain healthcare billing KPIs.  
+- Present insights through clear analysis and visualizations.  
+
+---
+
+## Author
+**Chris Winge**  
+Sustaining Member of NPR/MPR | Data Analyst | Passionate about using data for community impact.  
+
+---
+

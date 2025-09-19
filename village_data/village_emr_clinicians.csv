@@ -1,0 +1,26 @@
+clinician_id,clinician_name,credential,hire_date,active,location
+1,Clinician 1,LMFT,2024-04-02,True,Moorhead
+2,Clinician 2,LICSW,2020-02-25,True,Moorhead
+3,Clinician 3,LMFT,2024-05-21,True,Fargo - Main
+4,Clinician 4,LCSW,2021-06-06,True,Grand Forks
+5,Clinician 5,LPC,2024-06-21,True,Grand Forks
+6,Clinician 6,LPC,2023-04-12,True,Grand Forks
+7,Clinician 7,LPCC,2018-05-13,True,Fargo - South
+8,Clinician 8,PhD,2022-09-16,True,Fargo - South
+9,Clinician 9,MD-Psych,2020-06-04,True,Fargo - Main
+10,Clinician 10,LMFT,2023-05-08,True,Grand Forks
+11,Clinician 11,LPC,2019-10-27,True,Fargo - Main
+12,Clinician 12,LPC,2020-10-22,True,Moorhead
+13,Clinician 13,LMFT,2024-09-27,True,Fargo - Main
+14,Clinician 14,LPCC,2024-09-19,True,Moorhead
+15,Clinician 15,LMFT,2019-08-15,True,Fargo - Main
+16,Clinician 16,LMFT,2024-07-26,True,Fargo - Main
+17,Clinician 17,LPC,2019-11-09,True,Fargo - South
+18,Clinician 18,PhD,2021-04-21,True,Moorhead
+19,Clinician 19,LPC,2024-07-01,True,Moorhead
+20,Clinician 20,LCSW,2021-02-17,True,Moorhead
+21,Clinician 21,MD-Psych,2023-10-01,True,Moorhead
+22,Clinician 22,LICSW,2020-03-06,True,Grand Forks
+23,Clinician 23,LMFT,2022-01-05,True,Fargo - Main
+24,Clinician 24,LPCC,2023-03-19,True,Fargo - South
+25,Clinician 25,LICSW,2018-04-04,True,Fargo - South
