@@ -1,7 +1,7 @@
 # EMR Data Analysis Project
 
 ## Overview
-This project uses synthetic/fake EMR data that was generated to mirror the types of datasets and analyses a Business Analyst at The Village Family Service Center would encounter. The structure, relationships, and metrics reflect realistic healthcare billing and clinical workflows, but all patient and financial details are simulated. 
+This project uses * synthetic EMR data * designed to mirror the types of datasets and analyses a Business Analyst at a mental health counseling center would typically encounter. The structure, relationships, and metrics reflect realistic healthcare billing and clinical workflows, but all patient and financial details are simulated. 
 The primary goal is to evaluate **data quality** and **revenue cycle performance metrics** such as charge lag, clean claim rate, denial rate, and days sales outstanding (DSO).  
 
 The project uses Python (Pandas, Matplotlib) in a Jupyter Notebook environment.  
