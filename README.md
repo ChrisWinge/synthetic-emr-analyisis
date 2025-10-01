@@ -1,4 +1,4 @@
-# The Village EMR Data Analysis Project
+# EMR Data Analysis Project
 
 ## Overview
 This project uses synthetic/fake EMR data that was generated to mirror the types of datasets and analyses a Business Analyst at The Village Family Service Center would encounter. The structure, relationships, and metrics reflect realistic healthcare billing and clinical workflows, but all patient and financial details are simulated. 
